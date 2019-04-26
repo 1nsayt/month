@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 300px;
+    text-align: center;
+    border: solid 1px black;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .day {
+   border: 1px solid red;
+   flex: 1 1 0;
+  }
+  
+  .weekday {
+    background: lightgray;
+    border: solid 1px black;
+    flex: 1 1 0;
+  }
+  
+  .itemOut {
+    width: 100%;
+    border: solid 1px black;
+    display: flex;
+    height: 35px;
+  }
+  
